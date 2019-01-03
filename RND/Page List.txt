@@ -1,0 +1,43 @@
+Public Pages
+====================================================
+Home Page
+	sign in
+	Sign Up
+Candidate Listing Page
+Job Landing page
+Company Landing Page
+
+User Side
+====================================================
+Notification
+	All notification under one common notification
+
+User Profile
+	Smart Cv
+	Followers
+	Skills and all other user details
+	User Settings
+
+
+My feed
+My space
+Jobs
+	Job Tracking
+Test
+Message
+Package / Plan
+
+
+Company Side
+====================================================
+Dashboard
+Company Profile
+	followers
+My Feeds
+Job
+	posting
+	Recruitment
+	Interview
+
+Package/Plan
+
