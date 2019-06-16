@@ -1,0 +1,26 @@
+.home_footer{
+    max-width: 100%;
+    padding: 30px 0px;
+    border-top: 1px solid #f1f1f1;
+    a{
+        text-align: right;
+        color: $text;
+        float: right;
+        display: block;
+    }
+}
+
+
+// Responsive
+// =================================
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { 
+    .home_footer{
+        text-align: center;
+        border-top: none;
+        a{
+            text-align: center;
+            float: none;
+        }
+    }
+}

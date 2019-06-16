@@ -10,7 +10,24 @@
 @import 'basic_layout/_header.scss';
 @import 'basic_layout/_footer.scss';
 @import 'basic_layout/_typo.scss';
-@import 'layout/_home.scss';
+@import 'basic_layout/_basic_style.scss';
+
+// components
+@import 'layout/components/_pagination.scss';
+@import 'layout/components/_advertisement.scss';
+@import 'layout/components/_form.scss';
+@import 'layout/components/_button.scss';
+
+
+// Pages
+@import 'layout/pages/_jobs.scss';
+@import 'layout/pages/_home.scss';
+@import 'layout/pages/_login.scss';
+
+
+
+
+
 
 
 
