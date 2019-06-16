@@ -1,0 +1,49 @@
+.bt_positive{
+    width: auto;
+    width: 120px;
+    height: 45px;
+    background:$brand_color;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+    color: $white;
+    a{
+        color: $white;
+        display: block;
+        width: 100%;
+    }
+}
+.bt_negative{
+    width: auto;
+    width: 120px;
+    height: 45px;
+    background:$brand_2_color;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+    color: $white;
+    a{
+        color: $white;
+        display: block;
+        width: 100%;
+    }
+}
+
+.cancel_link{
+    color: $black;
+    text-decoration: underline;
+    &:hover{
+        text-decoration: underline;
+        opacity: 0.8;
+        color: $black;
+    }
+}
+
+
+// Responsive
+// =================================
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { 
+    .bt_positive{
+        height: 50px;
+    }
+    .bt_negative{
+        height: 50px;
+    }
+}

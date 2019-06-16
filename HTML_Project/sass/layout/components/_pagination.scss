@@ -1,0 +1,14 @@
+.pagination{
+    float: left;
+    width: 100%;
+    margin: 20px 0px;
+}
+.pagination.pagination-circle .page-item .page-link:hover, .pagination.pagination-circle .page-item.active .page-link{
+    border-radius: 160px!important;
+}
+.page-link{
+    line-height: unset!important;
+}
+.pagination.pg-blue .page-item.active .page-link, .pagination.pg-blue .page-item.active .page-link:hover{
+    background-color: $brand_color;
+}

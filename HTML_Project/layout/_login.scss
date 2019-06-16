@@ -1,0 +1,70 @@
+.bg_login{
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+}
+.public_login{
+    padding: 30px;
+    .login_logo{
+        margin-top: 60px;
+        display: block;
+    }
+    h1{
+        font-size: 30px;
+        text-align: left;
+        color: $text;
+        padding: 50px 0px 40px 0px;
+        strong{
+            font-weight: bold;
+        }
+    }
+    .dont_have_account{
+        font-weight: normal;
+        font-size: 14px;
+        text-align: left;
+        color: $label_text;
+        line-height: 24px; 
+        padding: 40px 0px 0px;
+        a{
+            color: #51AEFF;
+        }     
+    }
+    button{
+        margin-right: 20px;
+    }
+}
+
+
+// Responsive
+// =================================
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { 
+    .public_login{
+        padding: 20px;
+        text-align: center;
+        h1, .dont_have_account{
+            text-align: center;
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) { 
+    .public_login{
+        padding: 20px;
+        text-align: center;
+        h1, .dont_have_account{
+            text-align: center;
+        }
+    }
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) { 
+    .public_login{
+        padding: 20px;
+        text-align: center;
+        h1, .dont_have_account, p{
+            text-align: center;
+        }
+    } 
+}

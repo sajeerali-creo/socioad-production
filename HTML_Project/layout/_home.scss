@@ -1,0 +1,148 @@
+.full_width_block{
+    max-width: 100%;
+    height: 100vh;
+    background: $white;
+    background-image: url(../../img/home_banner.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    h1{
+        font-weight: bold;
+        font-size: 35px;
+        text-align: left;
+        color: #146080;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        line-height: 38px;
+    }
+}
+
+.home_form{
+    max-width: 370px;
+    p{
+        font-weight: normal;
+        font-size: 16px;
+        text-align: left;
+        color: $label_text;
+        line-height: 24px; 
+        padding-bottom: 60px;
+        padding-top: 30px;
+        a{
+            color: #51AEFF;
+        }     
+    }
+}
+
+
+
+
+// Responsive
+// =================================
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { 
+    .hidden-xs{display: none;}
+    .home_form{
+        max-width: 100%;
+    }
+    .full_width_block{
+        height: auto;
+        background-position: bottom;
+        h1{
+            padding-top: 50px;
+            font-size: 26px;
+            text-align: center;
+    
+        }
+    }
+    .bt_positive{
+        width: 100%!important;
+        margin-bottom: 10px;
+    }
+    .bt_negative{
+        width: 100%!important;
+    }
+    .full_width_block{
+        background-size: contain;
+    }
+    .home_form{
+        padding: 20px;
+        border:1px solid $border;
+        box-shadow: 0px 3px 6px rgba(152, 166, 177, 0.11);
+        background:rgba(255, 255, 255, 0.97);
+        p{
+            padding: 0px 0px 20px 0px;
+        }
+    }
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) { 
+    .hidden-xs{display: none;}
+    .home_form{
+        max-width: 100%;
+    }
+    .full_width_block{
+        height: auto;
+        background-position: bottom;
+        h1{
+            padding-top: 50px;
+            font-size: 26px;
+            text-align: center;
+    
+        }
+    }
+    .bt_positive{
+        width: 100%!important;
+        margin-bottom: 10px;
+    }
+    .bt_negative{
+        width: 100%!important;
+    }
+    .full_width_block{
+        background-size: contain;
+    }
+    .home_form{
+        padding: 20px;
+        border:1px solid $border;
+        box-shadow: 0px 3px 6px rgba(152, 166, 177, 0.11);
+        background:rgba(255, 255, 255, 0.97);
+        p{
+            padding: 0px 0px 20px 0px;
+        }
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) { 
+    .hidden-xs{display: none;}
+    .home_form{
+        max-width: 100%;
+    }
+    .full_width_block{
+        height: auto;
+        background-position: bottom right;
+    }
+ 
+    .full_width_block{
+        background-size: contain;
+    }
+    .home_form{
+        padding: 20px;
+        border:1px solid $border;
+        box-shadow: 0px 3px 6px rgba(152, 166, 177, 0.11);
+        background:rgba(255, 255, 255, 0.97);
+        p{
+            padding: 0px 0px 20px 0px;
+        }
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .full_width_block{
+        height: auto;
+        background-position: bottom right;
+    }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }

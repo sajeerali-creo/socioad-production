@@ -1,0 +1,10 @@
+label{
+    color: $label_text!important;
+}
+button{
+    border:none;
+    border-radius: $border-radius;
+    &:hover{
+        opacity: 0.8;
+    }
+}
